@@ -68,15 +68,15 @@ if ($server == 1)
 	$db['default']['autoinit'] = TRUE;
 	$db['default']['stricton'] = FALSE;
 }
-else 
+else
 {
-	
+
 	$active_group = 'default';
 	$active_record = FALSE;
-	$db['default']['hostname'] = 'Driver={SQL Server};Server=Tiamzon-pc;Database=Payroll; Uid=sa;Pwd=Calender365;';
+	$db['default']['hostname'] = 'Driver={SQL Server};Server=Tiamzon-pc;Database=Payroll_20181110; Uid=sa;Pwd=Calender365;';
 	$db['default']['username'] = 'sa';
 	$db['default']['password'] = 'Calender365';
-	$db['default']['database'] = 'Payroll';
+	$db['default']['database'] = 'Payroll_20181110';
 	$db['default']['dbdriver'] = 'odbc';
 	$db['default']['dbprefix'] = '';
 	$db['default']['pconnect'] = FALSE;
@@ -88,8 +88,8 @@ else
 	$db['default']['swap_pre'] = '';
 	$db['default']['autoinit'] = TRUE;
 	$db['default']['stricton'] = FALSE;
-	
-	
+
+
 }
 // $active_group = 'default';
 // $active_record = TRUE;
